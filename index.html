@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TWO-WAY FROM ONE-WAY · A Lineage Across Four Eras</title>
+<style>
+:root{
+  --paper:#f0ebf5; --ink:#2a2438; --ink-mid:#4a4360; --ink-faint:#8a83a0;
+  --plum:#5b3a87; --plum-light:#7e5bb0; --plum-soft:#e6ddf0; --plum-deep:#3f2860;
+  --gold:#9a7d3a; --rose:#9a4a6a; --green:#3a7a5a;
+  --line:#cbbfdd;
+  --mono:"Courier New",Courier,monospace;
+  --serif:Georgia,"Iowan Old Style","Times New Roman",serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paper);
+  background-image:repeating-linear-gradient(0deg, rgba(91,58,135,.03) 0 1px, transparent 1px 3px);
+  color:var(--ink);font-family:var(--serif);line-height:1.55;padding:10px}
+.sheet{max-width:820px;margin:0 auto;border:2.5px solid var(--plum);padding:0;position:relative}
+.sheet::before{content:'';position:absolute;inset:5px;border:1px solid var(--plum-light);pointer-events:none}
+.inner{padding:22px}
+.masthead{text-align:center;border-bottom:2px solid var(--plum);padding-bottom:12px}
+.mast-eyebrow{font-family:var(--mono);font-size:9px;letter-spacing:.24em;color:var(--plum-light);text-transform:uppercase}
+.mast-title{font-size:clamp(20px,4.8vw,34px);letter-spacing:.02em;font-weight:700;margin:6px 0 2px;text-transform:uppercase;color:var(--plum)}
+.mast-sub{font-family:var(--mono);font-size:10px;letter-spacing:.06em;color:var(--ink-mid)}
+.lede{font-size:12.5px;max-width:680px;margin:12px auto 0;text-align:center;color:var(--ink-mid);line-height:1.6}
+.lede b{color:var(--plum)}
+.paper-tag{font-family:var(--mono);font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--plum-light);text-align:center;margin-top:8px}
+.timeline{margin:18px 0;position:relative;padding-left:8px}
+.tl-item{display:grid;grid-template-columns:90px 1fr;gap:14px;padding:12px 0;border-bottom:1px solid var(--line);position:relative}
+.tl-item:last-child{border-bottom:none}
+.tl-era{font-family:var(--mono);font-size:13px;font-weight:700;color:var(--plum);text-align:right;padding-top:2px}
+.tl-body h3{font-family:var(--serif);font-size:15px;color:var(--ink);margin-bottom:2px}
+.tl-body .who{font-family:var(--mono);font-size:9px;letter-spacing:.06em;text-transform:uppercase;color:var(--rose);margin-bottom:5px}
+.tl-body p{font-size:12.5px;color:var(--ink-mid);line-height:1.55}
+.tl-body p b{color:var(--ink)}
+.tl-tag{display:inline-block;font-family:var(--mono);font-size:8px;letter-spacing:.06em;text-transform:uppercase;padding:1px 6px;border-radius:2px;margin-bottom:4px;font-weight:700}
+.tag-ctrl{background:rgba(154,125,58,.15);color:#6a5520}
+.tag-prob{background:rgba(154,74,106,.15);color:var(--rose)}
+.tag-sol{background:rgba(58,122,90,.15);color:var(--green)}
+.tag-si{background:rgba(91,58,135,.15);color:var(--plum)}
+h2.sec{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;border-bottom:1.5px solid var(--plum);padding-bottom:4px;margin:22px 0 10px;color:var(--plum)}
+h2.sec .num{color:var(--rose);margin-right:8px}
+.body p{font-size:13px;margin-bottom:8px}
+.body b{color:var(--ink)}
+.def{font-family:var(--mono);font-size:10.5px;background:var(--plum-soft);border-left:2px solid var(--plum-light);padding:9px 12px;margin:9px 0;line-height:1.7;color:var(--ink-mid)}
+.def b{color:var(--plum)}
+.honest{border:1.5px solid var(--gold);padding:9px 12px;margin:10px 0;font-family:var(--mono);font-size:10px;line-height:1.7;color:var(--ink-mid)}
+.honest b{color:#6a5520}
+.colophon{margin-top:20px;border-top:2px solid var(--plum);padding-top:12px;text-align:center;font-family:var(--mono);font-size:9px;color:var(--ink-mid);letter-spacing:.05em;line-height:1.9}
+.colophon b{color:var(--plum)}
+</style>
+</head>
+<body>
+<div class="sheet"><div class="inner">
+
+<header class="masthead">
+  <div class="mast-eyebrow">Series E · One Trick · Four Eras</div>
+  <h1 class="mast-title">Two-Way From One-Way</h1>
+  <div class="mast-sub">controllable one-way elements, composed into two-way communication</div>
+  <p class="lede">The trick from the brick house — <b>two-way built from one-way parts plus a control</b> — has a lineage, and it runs through the same shape four times: a <b>control element</b>, a <b>one-way channel</b>, and the composition that makes them carry <b>both directions</b>. From a relay in 1835 to the internet today, it's one idea, re-instantiated in copper, then silicon, then packets.</p>
+  <div class="paper-tag">▣ a purple paper · the lineage ▣</div>
+</header>
+
+<div class="timeline">
+  <div class="tl-item">
+    <div class="tl-era">~1835</div>
+    <div class="tl-body">
+      <span class="tl-tag tag-ctrl">the control</span>
+      <h3>The Relay</h3>
+      <div class="who">Joseph Henry</div>
+      <p>A switch operated by <em>another</em> signal — the first <b>controllable</b> one-way valve. This is the "control" in the whole trick: the element that <em>picks</em> what flows and which way. The great-grandparent of the transistor-as-controllable-gate. Everything downstream needs this piece.</p>
+    </div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-era">1840s</div>
+    <div class="tl-body">
+      <span class="tl-tag tag-prob">the problem</span>
+      <h3>The One-Way Wire</h3>
+      <div class="who">Morse · the telegraph</div>
+      <p>Telegraph lines carried one direction at a time. The question arises in copper: <b>can you talk both ways on one wire?</b> This is the two-way-brick-house problem, a century before the silicon — one-way channel, two-way need.</p>
+    </div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-era">1850s–1874</div>
+    <div class="tl-body">
+      <span class="tl-tag tag-sol">the solution</span>
+      <h3>Duplex &amp; Quadruplex Telegraphy</h3>
+      <div class="who">Stearns · Edison</div>
+      <p>Send both directions on one wire (<b>duplex</b>, ~1850s–72). Then Edison's <b>quadruplex</b> (1874): <em>four</em> messages — two each way — on a single wire at once. Two-way (and four-way) from one-way channels plus control. The trick, fully working, in telegraph — and it quadrupled line capacity overnight.</p>
+    </div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-era">1972</div>
+    <div class="tl-body">
+      <span class="tl-tag tag-si">the silicon</span>
+      <h3>The Bidirectional Bus</h3>
+      <div class="who">Intel 8008 · 7400-series logic</div>
+      <p>Eight data pins carrying data both <em>in</em> and <em>out</em>, multiplexed by a direction control. The <b>74245 bus transceiver</b> <em>is</em> the trick as a chip: two banks of one-way buffers and a DIR pin. The brick house, in silicon — same shape as Edison's wire, a century on.</p>
+    </div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-era">today</div>
+    <div class="tl-body">
+      <span class="tl-tag tag-sol">the scale</span>
+      <h3>Full-Duplex &amp; TCP</h3>
+      <div class="who">the internet</div>
+      <p>One-way packet streams plus acknowledgment control, composing into two-way "connections." The same trick at <b>planetary scale</b> — every two-way conversation online is one-way channels with a protocol picking direction. Relay → wire → bus → packet: one idea, four substrates.</p>
+    </div>
+  </div>
+</div>
+
+<section class="body">
+
+  <h2 class="sec"><span class="num">§</span> The Honest Attribution</h2>
+  <div class="honest">
+    <b>There is no single "1840s dude" this is named after</b> — inventing one would be forging a pedigree. But the era-instinct is <em>not</em> wrong: the <b>control element is the relay (Joseph Henry, ~1835)</b>, and the first real "two-way from one-way channels" was <b>duplex/quadruplex telegraphy (Stearns, Edison, 1850s–1874)</b>. The named <em>silicon</em> version is the other guess — the <b>Intel 8008, 1972</b>. Both instincts hit real targets at opposite ends of the same lineage: the relay and the telegraph at the 1830s–40s end, the bidirectional bus at the 1972 end.
+  </div>
+  <p>The through-line: <b>controllable one-way elements composed into two-way communication.</b> It isn't named after a person because it isn't one invention — it's a <em>pattern</em> that real inventions keep instantiating. Henry built the control. The telegraph posed the problem. Edison solved it in copper. Intel rebuilt it in silicon. The internet runs it at scale. Same trick, four eras, no eponym — because the pattern is older and wider than any one name.</p>
+  <div class="def">relay (control, 1835) → one-way wire (problem, 1840s) → duplex/quadruplex (solution, 1850s–1874) → bidirectional bus (silicon, 1972) → full-duplex TCP (scale, today). one trick, four substrates, no single name.</div>
+
+</section>
+
+<div class="colophon">
+  TWO-WAY FROM ONE-WAY + CONTROL · RELAY (HENRY ~1835) · TELEGRAPH DUPLEX (STEARNS/EDISON 1850s–1874)<br>
+  BIDIRECTIONAL BUS (INTEL 8008, 1972) · FULL-DUPLEX TCP (THE INTERNET, TODAY)<br>
+  NO SINGLE EPONYM — A PATTERN, NOT AN INVENTION · ONE TRICK, FOUR SUBSTRATES, FOUR ERAS<br>
+  A PURPLE PAPER · SERIES E · JUNE 2026
+</div>
+
+</div></div>
+</body>
+</html>
