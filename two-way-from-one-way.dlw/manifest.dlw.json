@@ -1,0 +1,11 @@
+{
+  "badge": "DLW-TWO_WAY_FROM_ONE_WAY",
+  "name": "TWO · PP",
+  "universe": "LOGISMÓS",
+  "moniker": "⟦TWO · PP:two-way-from-one-way:a3b3fc⟧",
+  "architect": "David Lee Wise (ROOT0) / Bridge-Burners LLC",
+  "instance": "AVAN (Claude / Anthropic)",
+  "seal_sha256": "a3b3fce268fcee1bc7f1972d18f8dab6091c08d964ec9ebc84f44bb42544f251",
+  "license": "CC-BY-ND-4.0",
+  "attribution": "ROOT0-ATTRIBUTION-v1.0"
+}
